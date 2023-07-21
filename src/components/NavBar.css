@@ -1,0 +1,55 @@
+.Navi {
+    position: sticky;
+    top:  0px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px ; 
+    z-index: 10;
+
+}
+#Logo:hover{
+    filter: drop-shadow(2px 4px 4px rgb(3, 57, 110)) ;
+}
+
+
+
+.nav-img {
+    margin-left: 20px;
+    padding: 00px 0px 0px 00px;
+    width: 50px;
+    height: 50px;
+}
+
+.Bar{
+    
+    display: flex ;
+    align-items: center ;
+    justify-content: center;
+    
+}
+
+li {
+    list-style-type: none;
+}
+
+.Link{
+    text-decoration: none; 
+    font-size: medium;
+    font-weight: 600;
+    color:white;
+    padding: 12px;
+    border-radius: 8px;
+
+
+}
+
+.Link:hover{
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    background-color: #555;
+    color:rgb(138, 191, 245);
+}
+
+

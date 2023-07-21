@@ -1,0 +1,28 @@
+/* .NavBar{
+    padding: 20px;
+    margin : 0px;
+    background-color: rgb(10, 10, 10);
+    color: aliceblue;
+    display: flexbox;
+}
+
+.Link{
+    text-decoration: none;
+    color: aliceblue;
+    background: rebeccapurple;
+    padding: 7px;
+    margin: 4px;
+    border-radius: 8px;
+}
+
+.Sec{
+    right: 0%;
+    display: flex;
+    flex-direction: row;
+}
+.Link:hover{
+     color:aqua ; 
+    cursor: pointer;
+    background-color: rgb(74, 37, 112);
+}
+ */
