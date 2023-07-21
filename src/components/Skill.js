@@ -97,7 +97,7 @@ const Skill=() =>{
                     </div>
                     </Tilt>
 
-                    <Tilt
+                    {/* <Tilt
                     className="parallax-effect-glare-scale"
                     perspective={500}
                     scale={1.02}
@@ -105,7 +105,7 @@ const Skill=() =>{
                     <div className=' skil-card' > 
                     <img src='postman.png' className='skill-img' />
                     </div>
-                    </Tilt>
+                    </Tilt> */}
 
                 </div> 
                 
