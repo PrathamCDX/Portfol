@@ -1,3 +1,4 @@
+import GlobeCanvas from './Globe';
 import './Hero.css';
 import Typed from 'react-typed';
 
@@ -30,6 +31,7 @@ const Hero =() =>{
                 />
                 </div>
             </div>
+            <GlobeCanvas/>
         
         </div>
     )
