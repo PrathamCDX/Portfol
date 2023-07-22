@@ -34,7 +34,7 @@ const Hero =() =>{
                 </div>
             </div>
             
-            <div className='can-prop'>
+            <div className='can-prop p-10'>
                 <GlobeCanvas/>
             </div>
             
