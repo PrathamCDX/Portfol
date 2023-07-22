@@ -5,6 +5,7 @@ import Skill from './components/Skill'
 import Hero from './components/Hero'
 import Feedback from './components/FeedBack'
 import Footer from './components/Footer'
+import GlobeCanvas from './components/Globe'
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
     <Skill />
     <Feedback />
     <Footer />
+    
       <div>
         
 
