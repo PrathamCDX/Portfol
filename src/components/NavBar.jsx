@@ -20,9 +20,9 @@ const NavBar = () =>{
                         <a href="#About"className='Link'>Projects</a>
                     </li>
 
-                    <li>
+                    {/* <li>
                         <a href="#Contact" className='Link'>Feedback</a>
-                    </li>
+                    </li> */}
                     <li>
                         <a href="#Contact" className='Link'>Contact</a>
                     </li>
