@@ -1,4 +1,19 @@
 .container{
     background-color: rgb(10, 10, 10);
     color: aliceblue;
+    
+}
+
+.cover{
+    height: 33rem;
+}
+
+.card-back{
+    height: 31rem;
+    width: 24rem;
+}
+
+.lottie-wrap{
+    height: 33rem;
+    width: 33rem;
 }
