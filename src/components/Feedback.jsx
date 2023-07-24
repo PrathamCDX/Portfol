@@ -35,7 +35,7 @@ function Feedback() {
                             
                         </form>
                     </div>
-                    <button className='bg-purple p-2 mt-3 rounded-full'>   
+                    <button className='bg-purple hover:bg-[#29278d] duration-300 p-2 mt-3 rounded-full'>   
                         <span className='mx-3 text-white'>Submit</span>     
                     </button>
             

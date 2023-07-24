@@ -13,7 +13,7 @@ const Hero =() =>{
 
                 </div>
                 <div className='text-white px-2 font-bold pt-5'>
-                    <div className='text-4xl md:text-5xl'> Myself 
+                    <div className='text-4xl sm:text-5xl'> Myself 
                         <span className='p-2 text-[#3f97f0]'>Pratham Sinha</span>
                     </div>
                     <br/>

@@ -26,6 +26,11 @@ const GlobeCanvas = () => {
         position: [-4, 3, 6],
       }}
     >
+      {/* <pointLight position={[10, 20, 60]} />
+      <spotLight />
+      <ambientLight />
+      <hemisphereLight /> */}
+
       
         <OrbitControls
           autoRotate
