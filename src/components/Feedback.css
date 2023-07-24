@@ -10,10 +10,18 @@
 
 .card-back{
     height: 31rem;
-    width: 24rem;
+    width: 100%;
+    max-width: 380px;
 }
 
 .lottie-wrap{
     height: 33rem;
-    width: 33rem;
+    
+    width: auto;
+    max-width: 33rem;
+    position: absolute;
+    padding-bottom: 80px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
 }

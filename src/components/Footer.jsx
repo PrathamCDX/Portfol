@@ -5,8 +5,8 @@ import MachineCanvas from './Machine';
 
 const Footer = () =>{
     return (
-        <div className='bg-[#111]  px-4 py-5 flex justify-between items-center text-white'>
-            <div className='mx-2 relative w-40 inset-y-1/2'>
+        <div className='bg-[#111] px-1  py-5 flex flex-col md:flex-row gap-5 justify-between items-center text-white'>
+            <div className='mx-2 md:mx-0 relative w-40 inset-y-1/2'>
                 <MachineCanvas />
                 {/* <p className='px-4'>The Logo</p> */}
             </div>
