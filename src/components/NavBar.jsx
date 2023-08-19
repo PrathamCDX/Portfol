@@ -31,7 +31,7 @@ const NavBar = () =>{
                     </li>
                     <li className=' text-white font-semibold p-1 px-5 rounded-lg
                         hover:text-blue hover:bg-greyl transition duration-300 ease-in-out'>
-                        <a href="#About"className=''>Projects</a>
+                        <a href="#About"className=''>Feedback</a>
                     </li>
                     <li className=' text-white font-semibold p-1 px-5 rounded-lg
                         hover:text-blue hover:bg-greyl transition duration-300 ease-in-out'>
@@ -49,7 +49,7 @@ const NavBar = () =>{
                         <a href="#Contact" className='Link'>Skills</a>
                     </li>
                     <li>
-                        <a href="#About"className='Link'>Projects</a>
+                        <a href="#About"className='Link'>Feedback</a>
                     </li>
 
                     {/* <li>

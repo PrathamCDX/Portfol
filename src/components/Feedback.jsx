@@ -9,7 +9,7 @@ function Feedback() {
         
         
         <div className='font-bold text-4xl pl-7 pt-7'>
-            Contact Me : 
+            Feedback : 
         </div>
 
         <div className='flex flex-wrap relative justify-center items-center gap-10  cover'>
