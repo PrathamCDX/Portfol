@@ -29,15 +29,10 @@ const MachineCanvas = () => {
     >
         
         <pointLight position={[100, 100, 100]} intensity={0.2} />
-        {/* <hemisphereLight  /> */}
-        {/* <ambientLight /> */}
-        {/* <ambientLight position={[150, 150, 150]} intensity={0.7} /> */}
-      {/* <spotLight intensity={0.5} angle={0.1} penumbra={1} position={[150, 150, 150]} castShadow /> */}
-
-
+        <ambientLight intensity={0.9} />
+        
       
         <OrbitControls
-          autoRotate
           autoRotateSpeed={0}
           enableZoom={false}
           maxPolarAngle={Math.PI / 2}

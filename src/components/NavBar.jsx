@@ -20,7 +20,7 @@ const NavBar = () =>{
                 <BsDoorClosed onClick={()=> setVis(!vis)} className='md:hidden hover:cursor-pointer absolute right-5 text-white text-2xl '/>
             }
             
-            <div className={`md:hidden bg-[#141414] absolute right-12 duration-300 ease-in-out rounded-lg ${ vis ?'top-[-200%]' : 'top-[50%]'  } `}>
+            <div className={`md:hidden bg-[#141414] absolute right-12 duration-200 ease-in-out rounded-lg ${ vis ?'top-[-200%]' : 'top-[50%]'  } `}>
                     <li className=' text-white font-semibold p-1 px-5 rounded-lg
                         hover:text-blue hover:bg-greyl transition duration-300 ease-in-out'>
                         <a href="#home" className=' '> About</a>
