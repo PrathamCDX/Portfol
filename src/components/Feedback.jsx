@@ -44,11 +44,14 @@ function Feedback() {
                     </div>
                     <button id='button' 
                     onClick={() => {
+                        name.value="";
+                        mail.value="" ;
+                        feed.value= "" ;
                         alert('Message sent') ;
                         // str="";
                         // str+= name.value +" "+mail.value+ " " + feed.value ;
                         // console.log(str);
-                        name.value= mail.value= feed.value= "" ;
+                        
 
                     }} className='text-white bg-purple hover:bg-[#29278d] duration-300 p-2 mt-3 rounded-full'>   
                         {/* <span className='mx-3 text-white'>Submit</span>      */}
