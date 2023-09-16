@@ -44,9 +44,9 @@ function Feedback() {
                     </div>
                     <button id='button' 
                     onClick={() => {
-                        name.value="";
-                        mail.value="" ;
-                        feed.value= "" ;
+                        name.value=" ";
+                        mail.value=" " ;
+                        feed.value=" " ;
                         alert('Message sent') ;
                         // str="";
                         // str+= name.value +" "+mail.value+ " " + feed.value ;
