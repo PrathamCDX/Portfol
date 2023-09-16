@@ -2,13 +2,11 @@ import './Feedback.css';
 import Lottie from "lottie-react" ;
 import animationData from './phone_animation.json' ;
 import Tilt from 'react-parallax-tilt';
+import { useState } from 'react';
 
 function Feedback() {
-    let name= document.getElementById("name") ;
-    let mail= document.getElementById("mail") ;
-
-    let feed= document.getElementById("feed") ;
-    let str="" ;
+    const [name , setName] = useState("") ;
+    
     
     // console.log("Loading") ;
   return (
@@ -44,10 +42,10 @@ function Feedback() {
                     </div>
                     <button id='button' 
                     onClick={() => {
-                        name.value=" ";
-                        mail.value=" " ;
-                        feed.value=" " ;
-                        alert('Message sent') ;
+                        document.getElementById("name").value='';
+                        document.getElementById("mail").value='' ;
+                        document.getElementById("feed").value='' ;
+                        // alert('Message sent') ;
                         // str="";
                         // str+= name.value +" "+mail.value+ " " + feed.value ;
                         // console.log(str);
