@@ -22,13 +22,7 @@ const Hero = () => {
           <div>
             <Typed
               className="text-2xl md:text-4xl "
-              strings={[
-                "Front-End Web Development",
-                "Competitive Programming",
-                "Machine Learning",
-                "Deep Learning",
-                "Data Analysis",
-              ]}
+              strings={["Front-End ", "Competitive Programming", "Back-End"]}
               typeSpeed={50}
               backSpeed={50}
               loop

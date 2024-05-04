@@ -12,9 +12,9 @@ const GlobeCanvas = () => {
   return (
     <Canvas
       shadows
-      frameloop="demand"
-      dpr={[1, 20]}
-      gl={{ preserveDrawingBuffer: true }}
+      // frameloop="demand"
+      // dpr={[1, 20]}
+      // gl={{ preserveDrawingBuffer: true }}
       camera={{
         fov: 45,
         near: 0.1,
@@ -22,6 +22,7 @@ const GlobeCanvas = () => {
         position: [-4, 3, 6],
       }}
     >
+      <directionalLight position={[10, 10, 10]} color="red" />
       {/* <pointLight position={[10, 20, 60]} />
       <spotLight />
       <ambientLight />
