@@ -6,6 +6,7 @@ import { useState } from "react";
 import axios from "axios";
 
 function Feedback() {
+  const [isLoading, setIsLoading] = useState(false);
   const [reviewerDetails, setReviewerDetails] = useState({
     name: "",
     feedback: "",
@@ -32,6 +33,7 @@ function Feedback() {
       name: "",
       feedback: "",
     });
+    setIsLoading(false);
     console.log(response.data);
     if (response.status === 200) {
       alert("Feedback submitted successfully!");
@@ -87,12 +89,16 @@ function Feedback() {
           <button
             id="button"
             onClick={() => {
+              setIsLoading(true);
               handleSubmit();
             }}
-            className="text-white bg-purple hover:bg-[#29278d] duration-300 p-2 mt-3 rounded-full"
+            className={
+              "text-white bg-purple hover:bg-[#29278d] duration-300 p-2 mt-3 rounded-full " +
+              (isLoading ? "cursor-not-allowed" : "")
+            }
           >
             {/* <span className='mx-3 text-white'>Submit</span>      */}
-            Submit
+            {isLoading ? <div>Submitting...</div> : <div>Submit</div>}
           </button>
         </div>
 
